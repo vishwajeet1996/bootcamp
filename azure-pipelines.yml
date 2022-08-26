@@ -16,5 +16,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    touch /Users/deepaksingh/myagent/ Demofile
+    Type nul> /Users/deepaksingh/myagent/ Demofile
   displayName: 'Run a multi-line script'
