@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: DemoMacAgent
+pool:
+  name: DemoMacAgent
   
 
 steps:
@@ -16,5 +17,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    Type nul> /Users/deepaksingh/myagent/ Demofile
+    touch /Users/deepaksingh/myagent/ Demofile
   displayName: 'Run a multi-line script'
