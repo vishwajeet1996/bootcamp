@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: DemoMacAgent
+  
 
 steps:
 - script: echo Hello, world!
@@ -16,5 +16,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    touch Demofile
+    touch /Users/deepaksingh/myagent/ Demofile
   displayName: 'Run a multi-line script'
